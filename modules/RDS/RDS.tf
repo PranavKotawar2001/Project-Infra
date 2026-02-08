@@ -58,7 +58,7 @@ resource "aws_db_instance" "default" {
   password             = var.password
   parameter_group_name = "default.mysql8.0"
   skip_final_snapshot  = true
-  vpc_security_group_ids = [aws_security_group.RDS_security-group.id]
+  vpc_security_group_ids = [aws_security_group.RDS_security_group.id]
   db_subnet_group_name = aws_db_subnet_group.default.name
   tags = {
     name = "RDS-db-insytancee"
