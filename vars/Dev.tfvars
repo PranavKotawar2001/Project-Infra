@@ -21,4 +21,4 @@ password = "admin@1234"
 
 # S3
 
-bucket = "pranav-kotawa-123"
+bucket = "pranav-kotawa-123456789"
