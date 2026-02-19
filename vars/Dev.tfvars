@@ -16,7 +16,7 @@ allocated_storage = 10
 max_allocated_storage = 20
 instance_class = "db.t3.micro"
 username = "admin"
-password = "admin@1234" 
+password = "Admin1234" 
 
 
 # S3
